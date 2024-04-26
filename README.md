@@ -1,17 +1,17 @@
-"# CSC102 - BRING IT ALL TOGETHER
+# CSC102 - BRING IT ALL TOGETHER
 
 For the Bring It All Together project, despite already having those practices incorporated into my webpage (game.js), I felt it would be innapropriate to reupload my design with no changes so I added a login page to the front. Since this isn't supposed to actually be secure I'll include the valid logins right here in the README, I'll do this going forward too.
-
-VALID LOGINS:
-First Name	Last Name	Badge Number
-
-Jordan		Kelly		123
-Jael		Battana		123
-Chris		Javier		123
-Christian	Javier		123
-Chris		Javier		1234 	(debug for badge length)
-1		1		1	(quick bypass, a single 1 in each field)
-
+## VALID LOGINS:
+    
+| First Name  | Last Name  | Badge Number | Misc |
+|:---------------:|:---------------:|:---------------:|:---------------:|
+| Jordan | Kelly | 123 ||
+| Jael | Battana | 123 ||
+| Chris | Javier | 123 ||
+| Chris | Javier | 1234 | (length debug) |
+| Christian | Javier | 123 ||
+| 1 | 1 | 1 | (quick bypass) |
+_________________________________________________________________________
 
 
 I incorporated this by using a HTML form and some Javascript for input validation. The data itself is sent via POST and the badge number field is set to type="password" to treat it as though it is sensitive. What used to be index.html is now main.html and located with the other pages in ./config/pages/main.html
